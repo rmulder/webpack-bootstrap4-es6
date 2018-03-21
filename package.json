@@ -1,0 +1,38 @@
+{
+  "name": "webpack-bootstrap4-boilerplate",
+  "version": "1.0.0",
+  "description": "BoilerPlate with the basics for projects with Webpack 3.6, ES6 and Bootstrap 4.0.",
+  "main": "main.js",
+  "scripts": {
+    "build": "export APP_ENV=production && webpack --config webpack.config.js --hide-modules",
+    "dev": "export APP_ENV=development && webpack-dev-server --open --config webpack.config.js"
+  },
+  "author": "Netrica",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^6.3.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "bootstrap": "^4.0.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "extract-css": "^1.0.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.5.3",
+    "npm": "^5.5.1",
+    "popper.js": "^1.14.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin3": "^1.0.0-beta",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.6.0",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-chunk-hash": "^0.5.0",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
